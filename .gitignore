@@ -1,0 +1,21 @@
+syntax: glob
+# generic
+*.pyc
+*.swp
+*.swo
+dist
+
+
+
+
+# nosetest coverage output
+.coverage
+htmlcov/*
+
+
+# docker
+contrib/docker/.env
+
+# other
+official
+official/*
